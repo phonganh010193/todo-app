@@ -99,6 +99,9 @@ class TodoApp extends React.Component{
                                         className="btn btn-delete"
                                         onClick={() => this.handleOnclickDelete(item)}
                                     >Delete</button>
+
+
+                                    
                                 </div>
                             </div>
                         )
