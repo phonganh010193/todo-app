@@ -1,0 +1,30 @@
+.todo-content {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.todo-children {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid;
+    height: 50px;
+    position: relative;
+}
+.children-first {
+    border-top: 1px solid;
+}
+.btn-all {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn {
+    margin-left: 10px;
+}
+.text-children {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
